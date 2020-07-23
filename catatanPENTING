@@ -1,0 +1,19 @@
+jsx : documen yg akan dirender oleh react
+render harus return jsx berisi html(didalam <div></div>) => div bisa diganti dengan fragment
+1 component harus punya 1 parent
+nama component haruspascal case
+semua component harus di export
+semua component yg function harus return jsx
+semua component yg class extends react.component harus ada method render kemudian return jsx
+semua component harus dibungkus di web dgn 1 parent tag dgn tag <div></div> atau <fragment></fragment>
+semua nama component harus = nama file
+satu componen terdiri 1 class atau 1 function
+
+======Props=====
+class yg menerima prop tidak perlu menggunakan constructor karena sudah ada di extends Component
+props --> parameter yg dikirim dari parent ke anak"nya
+tidak bisa dirubah valuenya
+
+=====STATE=====
+property dalam kelas
+bisa dirubah dengan this.setState();
